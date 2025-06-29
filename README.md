@@ -71,3 +71,14 @@ Create a fork, clone it, and submit a pull request with improvements.
 ## 📄 License
 
 MIT License © [Sai Varun Pappla](https://github.com/SaiVarunPappla)
+## 📸 Dashboard Preview
+
+## 📸 Live Dashboard Preview
+
+Here’s a quick preview of the live **BeginnerQuant Streamlit Dashboard**:
+
+### Screenshot 1
+![Streamlit Screenshot 1](streamlit1.png)
+
+### Screenshot 2
+![Streamlit Screenshot 2](streamlit2.png)
