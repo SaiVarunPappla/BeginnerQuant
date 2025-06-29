@@ -1,84 +1,111 @@
-# 📊 BeginnerQuant - AI-Powered Trading Strategy Simulator
+# 📊 BeginnerQuant: Algorithmic Trading Strategies with Streamlit Dashboard
 
-🚀 Welcome to **BeginnerQuant**, a beginner-friendly yet powerful tool that simulates trading strategies like **SMA**, **RSI**, and **MACD** on real-time financial data (stocks, crypto, etc.) using **Python**, **Pandas**, **Matplotlib**, and **Streamlit**.
-
-🔗 **Live App**: [Try it Now](https://beginnerquant-gg3kca3rc73rjtr26n4hyj.streamlit.app/)  
-📁 **Project Repo**: [View on GitHub](https://github.com/SaiVarunPappla/BeginnerQuant)
-
----
-
-## 🧠 What It Does
-
-- 📉 Downloads stock or crypto data from **Yahoo Finance**
-- ⚙️ Applies **SMA**, **RSI**, and **MACD** strategies
-- 📈 Simulates backtesting and visualizes profit/loss over time
-- 📊 Interactive charts & outputs in a Streamlit web dashboard
-- 💾 Exports results to `.csv` for easy analysis
-
----
-
-## ⚙️ Strategies Implemented
-
-| Strategy | Description | Signal |
-|----------|-------------|--------|
-| SMA | Simple Moving Average crossover (20 vs 50) | Buy/Sell |
-| RSI | Relative Strength Index (Overbought/Oversold) | Buy below 30 / Sell above 70 |
-| MACD | Moving Average Convergence Divergence | Buy when MACD > Signal line |
-
----
-
-## 🧪 How It Works
-
-1. User inputs any stock or crypto symbol (e.g. `AAPL`, `BTC-USD`, `RELIANCE.NS`)
-2. Strategy logic runs and simulates portfolio from ₹100,000
-3. Returns, performance, and growth curves are shown
-4. CSV file with results is auto-generated
-
----
-
-## 💻 Technologies Used
-
-- Python 🐍
-- Pandas, NumPy
-- yFinance API
-- Matplotlib & Plotly
-- Streamlit
-
----
-
-## 📷 Screenshots
-
-| SMA / RSI / MACD | Portfolio Growth |
-|------------------|------------------|
-| ![strategy_chart](assets/screenshot1.png) | ![portfolio_chart](assets/screenshot2.png) |
-
----
-
-## 🔗 Live Deployment
-
-🟢 Access the live web app:  
-👉 [https://beginnerquant-gg3kca3rc73rjtr26n4hyj.streamlit.app/](https://beginnerquant-gg3kca3rc73rjtr26n4hyj.streamlit.app/)
-
----
-
-## 🤝 Contributing
-
-👨‍💻 Beginner-friendly project. PRs are welcome.  
-Create a fork, clone it, and submit a pull request with improvements.
-
----
-
-## 📄 License
-
-MIT License © [Sai Varun Pappla](https://github.com/SaiVarunPappla)
-## 📸 Dashboard Preview
-
-## 📸 Live Dashboard Preview
-
-Here’s a quick preview of the live **BeginnerQuant Streamlit Dashboard**:
-
-### Screenshot 1
 ![Streamlit Screenshot 1](streamlit1.png)
-
-### Screenshot 2
 ![Streamlit Screenshot 2](streamlit2.png)
+
+---
+
+Welcome to **BeginnerQuant** – a beginner-friendly but powerful algorithmic trading project designed to **simulate and visualize trading strategies** like **SMA (Simple Moving Average)**, **RSI (Relative Strength Index)**, and **MACD (Moving Average Convergence Divergence)**.
+
+🔗 **Live App**: [Click to View Streamlit Dashboard](https://beginnerquant-gg3kca3rc73rjtr26n4hyj.streamlit.app/)
+
+---
+
+## 🚀 Features
+
+✅ **User-Interactive Dashboard** with Streamlit
+✅ Backtesting strategies with custom logic
+✅ Multi-Stock support (`AAPL`, `TSLA`, `RELIANCE.NS`, `BTC-USD`, etc.)
+✅ Easy CSV export of trading results
+✅ Clean GitHub structure and modular code
+
+---
+
+## 📈 Strategies Implemented
+
+### 1. **SMA Crossover**
+
+* Buy when 20-day SMA crosses above 50-day SMA
+* Sell when 20-day SMA drops below 50-day SMA
+
+### 2. **RSI (Relative Strength Index)**
+
+* Buy when RSI < 30 (oversold)
+* Sell when RSI > 70 (overbought)
+
+### 3. **MACD (Moving Average Convergence Divergence)**
+
+* Buy when MACD crosses above signal line
+* Sell when MACD crosses below signal line
+
+---
+
+## 📁 Project Structure
+
+```
+BeginnerQuant/
+│
+├── trading_strategy.py      # Strategy backtesting logic
+├── dashboard.py             # Streamlit app for visualization
+├── requirements.txt         # Dependencies for the project
+├── README.md                # Project documentation
+├── streamlit1.png           # Dashboard screenshot 1
+├── streamlit2.png           # Dashboard screenshot 2
+└── RELIANCE.NS_trading_results.csv  # Sample export file
+```
+
+---
+
+## 📤 Exported Results
+
+* Portfolio value & performance saved as `.csv` file
+* Strategy-wise final value, return %, and comparison
+
+---
+
+## 💼 How This Helps Your Career
+
+If you're a beginner exploring **quantitative finance**, **algorithmic trading**, or **data-driven investing**, this project will help you:
+
+✅ Learn real-world indicators and apply them in code
+✅ Understand strategy simulation from scratch
+✅ Build and deploy dashboards for portfolio analysis
+✅ Strengthen your Git/GitHub & Streamlit skills
+
+---
+
+## 🛠️ How to Run This Project
+
+```bash
+# 1. Clone the repository
+https://github.com/SaiVarunPappla/BeginnerQuant.git
+
+# 2. Navigate into project
+cd BeginnerQuant
+
+# 3. Install requirements
+pip install -r requirements.txt
+
+# 4. Run Streamlit dashboard
+streamlit run dashboard.py
+```
+
+---
+
+## 👨‍💻 Built With
+
+* Python 🐍
+* Pandas, NumPy, Matplotlib
+* yFinance 📉
+* Streamlit 🚀
+* Git & GitHub
+
+---
+
+## 🙌 Acknowledgements
+
+Big thanks to open-source finance libraries, the Streamlit community, and every beginner out there trying to learn and build!
+
+---
+
+> ⭐ Star this repo if you found it helpful or inspiring!
