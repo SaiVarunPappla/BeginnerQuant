@@ -11,17 +11,17 @@ Welcome to **BeginnerQuant** – a beginner-friendly but powerful algorithmic tr
 
 ---
 
-## 🚀 Features
+##  Features
 
-✅ **User-Interactive Dashboard** with Streamlit
-✅ Backtesting strategies with custom logic
-✅ Multi-Stock support (`AAPL`, `TSLA`, `RELIANCE.NS`, `BTC-USD`, etc.)
-✅ Easy CSV export of trading results
-✅ Clean GitHub structure and modular code
+ **User-Interactive Dashboard** with Streamlit
+ Backtesting strategies with custom logic
+ Multi-Stock support (`AAPL`, `TSLA`, `RELIANCE.NS`, `BTC-USD`, etc.)
+ Easy CSV export of trading results
+ Clean GitHub structure and modular code
 
 ---
 
-## 📈 Strategies Implemented
+##  Strategies Implemented
 
 ### 1. **SMA Crossover**
 
@@ -40,7 +40,7 @@ Welcome to **BeginnerQuant** – a beginner-friendly but powerful algorithmic tr
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BeginnerQuant/
@@ -56,25 +56,25 @@ BeginnerQuant/
 
 ---
 
-## 📤 Exported Results
+##  Exported Results
 
 * Portfolio value & performance saved as `.csv` file
 * Strategy-wise final value, return %, and comparison
 
 ---
 
-## 💼 How This Helps Your Career
+##  How This Helps Your Career
 
 If you're a beginner exploring **quantitative finance**, **algorithmic trading**, or **data-driven investing**, this project will help you:
 
-✅ Learn real-world indicators and apply them in code
-✅ Understand strategy simulation from scratch
-✅ Build and deploy dashboards for portfolio analysis
-✅ Strengthen your Git/GitHub & Streamlit skills
+Learn real-world indicators and apply them in code
+Understand strategy simulation from scratch
+Build and deploy dashboards for portfolio analysis
+Strengthen your Git/GitHub & Streamlit skills
 
 ---
 
-## 🛠️ How to Run This Project
+##  How to Run This Project
 
 ```bash
 # 1. Clone the repository
@@ -92,17 +92,17 @@ streamlit run dashboard.py
 
 ---
 
-## 👨‍💻 Built With
+## Built With
 
-* Python 🐍
+* Python 
 * Pandas, NumPy, Matplotlib
-* yFinance 📉
-* Streamlit 🚀
+* yFinance 
+* Streamlit 
 * Git & GitHub
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 Big thanks to open-source finance libraries, the Streamlit community, and every beginner out there trying to learn and build!
 
